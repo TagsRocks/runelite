@@ -28,11 +28,12 @@
 
 package net.runelite.rs.api;
 
+import java.math.BigInteger;
+import java.util.Map;
 import net.runelite.api.Client;
 import net.runelite.api.Sprite;
 import net.runelite.api.World;
 import net.runelite.api.widgets.Widget;
-import java.util.Map;
 import net.runelite.mapping.Construct;
 import net.runelite.mapping.Import;
 
@@ -278,10 +279,10 @@ public interface RSClient extends RSGameShell, Client
 	@Override
 	int[] getPlayerMenuTypes();
 
-	@Import("MouseHandler_x0")
+	@Import("MouseHandler_xVolatile")
 	int getMouseX();
 
-	@Import("MouseHandler_y0")
+	@Import("MouseHandler_yVolatile")
 	int getMouseY();
 
 	@Import("Scene_selectedScreenX")
@@ -301,30 +302,31 @@ public interface RSClient extends RSGameShell, Client
 	int getMenuOptionCount();
 
 	@Import("menuOptionsCount")
+	@Override
 	void setMenuOptionCount(int menuOptionCount);
 
 	@Import("menuActions")
 	String[] getMenuOptions();
 
-	@Import("menuTargetNames")
+	@Import("menuTargets")
 	String[] getMenuTargets();
 
-	@Import("menuArguments0")
+	@Import("menuIdentifiers")
 	int[] getMenuIdentifiers();
 
 	@Import("menuOpcodes")
-	int[] getMenuTypes();
+	int[] getMenuOpcodes();
 
 	@Import("menuArguments1")
-	int[] getMenuActionParams0();
+	int[] getMenuArguments1();
 
 	@Import("menuArguments2")
-	int[] getMenuActionParams1();
+	int[] getMenuArguments2();
 
 	@Import("menuShiftClick")
 	boolean[] getMenuForceLeftClick();
 
-	@Import("worlds")
+	@Import("World_worlds")
 	@Override
 	RSWorld[] getWorldList();
 
@@ -382,7 +384,7 @@ public interface RSClient extends RSGameShell, Client
 	@Import("itemContainers")
 	RSNodeHashTable getItemContainers();
 
-	@Import("getItemDefinition")
+	@Import("ItemDefinition_get")
 	@Override
 	RSItemDefinition getItemDefinition(int itemId);
 
@@ -482,7 +484,7 @@ public interface RSClient extends RSGameShell, Client
 	@Override
 	RSIterableNodeHashTable getMessages();
 
-	@Import("revision")
+	@Import("RunException_revision")
 	@Override
 	int getRevision();
 
@@ -595,20 +597,21 @@ public interface RSClient extends RSGameShell, Client
 	@Override
 	int getKeyboardIdleTicks();
 
+	@Import("KeyHandler_pressedKeys")
+	@Override
+	boolean[] getPressedKeys();
+
 	@Import("isLowDetail")
 	void setLowMemory(boolean lowMemory);
 
 	@Import("Scene_isLowDetail")
 	void setSceneLowMemory(boolean lowMemory);
 
-	@Import("isStereo")
+	@Import("PcmPlayer_stereo")
 	void setAudioHighMemory(boolean highMemory);
 
 	@Import("ObjectDefinition_isLowDetail")
 	void setObjectDefinitionLowDetail(boolean lowDetail);
-
-	@Construct
-	RSGroundItem createItem();
 
 	@Import("Interpreter_intStackSize")
 	@Override
@@ -832,9 +835,9 @@ public interface RSClient extends RSGameShell, Client
 	@Override
 	int getOculusOrbFocalPointY();
 
-	RSGroundItem getLastItemDespawn();
+	RSTileItem getLastItemDespawn();
 
-	void setLastItemDespawn(RSGroundItem lastItemDespawn);
+	void setLastItemDespawn(RSTileItem lastItemDespawn);
 
 	@Construct
 	RSWidget createWidget();
@@ -1040,4 +1043,15 @@ public interface RSClient extends RSGameShell, Client
 	@Import("crossSprites")
 	@Override
 	RSSprite[] getCrossSprites();
+
+	BigInteger getModulus();
+
+	void setModulus(BigInteger modulus);
+
+	@Import("ItemDefinition_fileCount")
+	int getItemCount();
+
+	@Import("insertMenuItem")
+	@Override
+	void insertMenuItem(String action, String target, int opcode, int identifier, int argument1, int argument2, boolean forceLeftClick);
 }

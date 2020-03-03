@@ -136,8 +136,16 @@ class ItemChargeOverlay extends WidgetItemOverlay
 
 			charges = plugin.getExplorerRing();
 		}
-		else
+		else if (itemId == ItemID.RING_OF_FORGING)
+		{
+			if (!plugin.isShowRingOfForgingCount())
+			{
+				return;
+			}
 
+			charges = plugin.getRingOfForging();
+		}
+		else
 		{
 			ItemWithCharge chargeItem = ItemWithCharge.findItem(itemId);
 			if (chargeItem == null)
@@ -162,7 +170,7 @@ class ItemChargeOverlay extends WidgetItemOverlay
 
 		final Rectangle bounds = itemWidget.getCanvasBounds();
 		final TextComponent textComponent = new TextComponent();
-		textComponent.setPosition(new Point(bounds.x, bounds.y + 1 + graphics.getFontMetrics().getMaxAscent() - graphics.getFontMetrics().getMaxDescent()));
+		textComponent.setPosition(new Point(bounds.x - 1, bounds.y + 15));
 		textComponent.setText(charges < 0 ? "?" : String.valueOf(charges));
 		textComponent.setColor(plugin.getColor(charges));
 		textComponent.render(graphics);
@@ -172,6 +180,7 @@ class ItemChargeOverlay extends WidgetItemOverlay
 	{
 		return plugin.isShowTeleportCharges() || plugin.isShowDodgyCount() || plugin.isShowFungicideCharges()
 			|| plugin.isShowImpCharges() || plugin.isShowWateringCanCharges() || plugin.isShowWaterskinCharges()
-			|| plugin.isShowBellowCharges() || plugin.isShowAbyssalBraceletCharges() || plugin.isShowExplorerRingCharges();
+			|| plugin.isShowBellowCharges() || plugin.isShowAbyssalBraceletCharges() || plugin.isShowExplorerRingCharges()
+			|| plugin.isShowRingOfForgingCount();
 	}
 }

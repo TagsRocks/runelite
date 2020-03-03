@@ -50,7 +50,6 @@ import net.runelite.client.RuneLite;
 import net.runelite.client.RuneLiteModule;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigItem;
-import net.runelite.client.rs.ClientUpdateCheckMode;
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Rule;
@@ -58,7 +57,8 @@ import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.junit.MockitoJUnitRunner;
+import net.runelite.client.rs.ClientUpdateCheckMode;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PluginManagerTest
@@ -83,7 +83,7 @@ public class PluginManagerTest
 	public void before() throws IOException
 	{
 		Injector injector = Guice.createInjector(Modules
-			.override(new RuneLiteModule(ClientUpdateCheckMode.AUTO, true))
+			.override(new RuneLiteModule(ClientUpdateCheckMode.NONE, true))
 			.with(BoundFieldModule.of(this)));
 
 		RuneLite.setInjector(injector);
@@ -107,9 +107,9 @@ public class PluginManagerTest
 				configClasses.add(clazz);
 			}
 		}
-
 	}
 
+	@SuppressWarnings("unchecked")
 	@Test
 	public void testLoadPlugins() throws Exception
 	{
@@ -141,14 +141,11 @@ public class PluginManagerTest
 	{
 		List<Module> modules = new ArrayList<>();
 		modules.add(new GraphvizModule());
-		modules.add(new RuneLiteModule(ClientUpdateCheckMode.AUTO, true));
+		modules.add(new RuneLiteModule(ClientUpdateCheckMode.NONE, true));
 
 		PluginManager pluginManager = new PluginManager(true, null, null, null, null, null);
 		pluginManager.loadCorePlugins();
-		for (Plugin p : pluginManager.getPlugins())
-		{
-			modules.add(p);
-		}
+		modules.addAll(pluginManager.getPlugins());
 
 		File file = folder.newFile();
 		try (PrintWriter out = new PrintWriter(file, "UTF-8"))

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Actor.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\AnimationID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\BufferProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ChatLineBuffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ChatMessageType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ChatPlayer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ClanMember.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ClanMemberRank.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Client.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\CollisionData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\CollisionDataFlag.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Constants.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\DecorativeObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\DynamicObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Entity.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\EnumDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\EnumID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\EquipmentInventorySlot.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Experience.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Favour.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\FontID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\FontTypeFace.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Friend.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\FriendManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GameObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GameShell.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GameState.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GrandExchangeOffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GrandExchangeOfferState.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GraphicID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GraphicsObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\GroundObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\HashTable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\HeadIcon.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\HealthBar.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\HintArrowType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Hitsplat.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\IconID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Ignore.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\IndexDataBase.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\IndexedSprite.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\InstanceTemplates.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\IntegerNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\InventoryID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Item.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ItemContainer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ItemDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ItemID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\IterableHashTable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\KeyFocusListener.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MainBufferProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MapElementConfig.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MenuEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MenuOpcode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MessageNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Model.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\MouseRecorder.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NPC.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NPCDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Nameable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Node.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NodeCache.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NpcID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NullItemID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\NullObjectID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ObjectDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ObjectID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Opcodes.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Perspective.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Player.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\PlayerAppearance.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Point.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Prayer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Preferences.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Projectile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ProjectileID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Quest.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\QuestState.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\RenderOverview.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Scene.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Script.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ScriptArguments.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ScriptEvent.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\ScriptID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Skill.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\SkullIcon.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\SoundEffectID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\SoundEffectVolume.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Sprite.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\SpriteID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Texture.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TextureProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Tile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TileItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TileItemPile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TileModel.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TileObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\TilePaint.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\VarClientInt.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\VarClientStr.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\VarPlayer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\Varbits.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\WallObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\WidgetNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\World.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\WorldMapData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\WorldMapManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\WorldType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\annotations\VisibleForDevtools.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\config\Constants.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\coords\Angle.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\coords\Direction.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\coords\LocalPoint.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\coords\WorldArea.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\coords\WorldPoint.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\AnimationChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\AreaSoundEffectPlayed.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\BeforeMenuRender.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\BeforeRender.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\BoostedLevelChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\CannonballFired.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\CanvasSizeChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ChatMessage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ClanChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ClanMemberJoined.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ClanMemberLeft.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ClientTick.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\CommandExecuted.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ConfigChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\DecorativeObjectChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\DecorativeObjectDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\DecorativeObjectSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\DraggingWidgetChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\DynamicObjectAnimationChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\Event.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ExperienceChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\FocusChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\FriendAdded.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\FriendRemoved.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GameObjectChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GameObjectDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GameObjectSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GameStateChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GameTick.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GrandExchangeOfferChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GraphicsObjectCreated.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GroundObjectChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GroundObjectDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\GroundObjectSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\HitsplatApplied.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\InteractChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\InteractingChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ItemContainerChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ItemDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ItemQuantityChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ItemSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\LocalPlayerDeath.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\MenuEntryAdded.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\MenuOpened.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\MenuOptionClicked.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\MenuShouldLeftClick.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\NameableNameChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\NpcActionChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\NpcDefinitionChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\NpcDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\NpcSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\OverheadTextChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PlayerDeath.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PlayerDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PlayerMenuOptionClicked.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PlayerMenuOptionsChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PlayerSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PostHealthBar.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\PostItemDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ProjectileMoved.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ProjectileSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ResizeableChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\ScriptCallbackEvent.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\SoundEffectPlayed.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\SpotAnimationChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\UsernameChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\VarClientIntChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\VarClientStrChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\VarbitChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WallObjectChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WallObjectDespawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WallObjectSpawned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WidgetHiddenChanged.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WidgetLoaded.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WidgetMenuOptionClicked.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WidgetPositioned.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WidgetPressed.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\events\WorldListLoad.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\geometry\Geometry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\hooks\Callbacks.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\hooks\DrawCallbacks.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\kit\KitType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\model\Jarvis.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\model\Triangle.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\model\Vertex.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\overlay\OverlayIndex.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\util\JagexPrintableCharMatcher.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\util\Text.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\vars\AccountType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\vars\Autoweed.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\vars\InputType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\vars\InterfaceTab.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\vars\SlayerUnlock.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\ItemQuantityMode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\JavaScriptCallback.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\Widget.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetConfig.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetID.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetInfo.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetPositionMode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetSizeMode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetTextAlignment.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\api\widgets\WidgetType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\mapping\Export.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\mapping\Import.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\mapping\ObfuscatedGetter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\mapping\ObfuscatedName.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runelite-api\src\main\java\net\runelite\mapping\Protect.java">
+</file>
+</checkstyle>

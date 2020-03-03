@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2018, Lotto <https://github.com/devLotto>
+ * Copyright (c) 2019, gregg1494 <https://github.com/gregg1494>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -114,13 +115,35 @@ public interface WorldHopperConfig extends Config
 	}
 
 	@ConfigItem(
+		keyName = "removePVPWorld",
+		name = "Remove Hop-to menu option (PVP)",
+		description = "Removes Hop-to menu option for PVP worlds",
+		position = 7
+	)
+	default boolean removePVPWorld()
+	{
+		return false;
+	}
+
+	@ConfigItem(
 		keyName = "subscriptionFilter",
 		name = "Show subscription types",
 		description = "Only show free worlds, member worlds, or both types of worlds in sidebar",
-		position = 7
+		position = 8
 	)
 	default SubscriptionFilterMode subscriptionFilter()
 	{
 		return SubscriptionFilterMode.BOTH;
+	}
+
+	@ConfigItem(
+		keyName = "displayPing",
+		name = "Display current ping",
+		description = "Displays ping to current game world",
+		position = 9
+	)
+	default boolean displayPing()
+	{
+		return false;
 	}
 }

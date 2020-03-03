@@ -29,7 +29,6 @@ import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.ImmutableMap;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.io.File;
@@ -43,12 +42,13 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
 import java.nio.channels.FileLock;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -66,8 +66,8 @@ import net.runelite.api.events.ConfigChanged;
 import net.runelite.client.RuneLite;
 import static net.runelite.client.RuneLite.PROFILES_DIR;
 import net.runelite.client.eventbus.EventBus;
-import net.runelite.client.ui.FontManager;
 import net.runelite.client.util.ColorUtil;
+import org.apache.commons.lang3.StringUtils;
 
 @Singleton
 @Slf4j
@@ -108,7 +108,7 @@ public class ConfigManager
 		final Properties properties = new Properties();
 		try (FileInputStream in = new FileInputStream(propertiesFile))
 		{
-			properties.load(new InputStreamReader(in, Charset.forName("UTF-8")));
+			properties.load(new InputStreamReader(in, StandardCharsets.UTF_8));
 		}
 		catch (Exception e)
 		{
@@ -116,7 +116,7 @@ public class ConfigManager
 			return;
 		}
 
-		final Map<String, String> copy = (Map) ImmutableMap.copyOf(this.properties);
+		@SuppressWarnings("unchecked") final Map<String, String> copy = (Map) ImmutableMap.copyOf(this.properties);
 		copy.forEach((groupAndKey, value) ->
 		{
 			if (!properties.containsKey(groupAndKey))
@@ -160,7 +160,7 @@ public class ConfigManager
 
 		try (FileInputStream in = new FileInputStream(SETTINGS_FILE))
 		{
-			properties.load(new InputStreamReader(in, Charset.forName("UTF-8")));
+			properties.load(new InputStreamReader(in, StandardCharsets.UTF_8));
 		}
 		catch (FileNotFoundException ex)
 		{
@@ -174,7 +174,7 @@ public class ConfigManager
 
 		try
 		{
-			Map<String, String> copy = (Map) ImmutableMap.copyOf(properties);
+			@SuppressWarnings("unchecked") Map<String, String> copy = (Map) ImmutableMap.copyOf(properties);
 			copy.forEach((groupAndKey, value) ->
 			{
 				final String[] split = groupAndKey.split("\\.", 2);
@@ -212,7 +212,7 @@ public class ConfigManager
 
 			try
 			{
-				properties.store(new OutputStreamWriter(out, Charset.forName("UTF-8")), "RuneLite configuration");
+				properties.store(new OutputStreamWriter(out, StandardCharsets.UTF_8), "RuneLite configuration");
 			}
 			finally
 			{
@@ -235,6 +235,7 @@ public class ConfigManager
 		eventBus.post(ConfigChanged.class, configChanged);
 	}
 
+	@SuppressWarnings("unchecked")
 	public <T> T getConfig(Class<T> clazz)
 	{
 		if (!Modifier.isPublic(clazz.getModifiers()))
@@ -263,6 +264,7 @@ public class ConfigManager
 		return properties.getProperty(propertyKey);
 	}
 
+	@SuppressWarnings("unchecked")
 	public <T> T getConfiguration(String groupName, String key, Class<T> clazz)
 	{
 		String value = getConfiguration(groupName, key);
@@ -430,7 +432,9 @@ public class ConfigManager
 
 			if (!override)
 			{
-				String current = getConfiguration(group.value(), item.keyName());
+				// This checks if it is set and is also unmarshallable to the correct type; so
+				// we will overwrite invalid config values with the default
+				Object current = getConfiguration(group.value(), item.keyName(), method.getReturnType());
 				if (current != null)
 				{
 					continue; // something else is already set
@@ -464,6 +468,7 @@ public class ConfigManager
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	static Object stringToObject(String str, Class<?> type)
 	{
 		if (type == boolean.class || type == Boolean.class)
@@ -505,10 +510,6 @@ public class ConfigManager
 		{
 			return Enum.valueOf((Class<? extends Enum>) type, str);
 		}
-		if (type == Font.class)
-		{
-			return FontManager.getFontOrDefault(FontManager.lookupFont(str));
-		}
 		if (type == Instant.class)
 		{
 			return Instant.parse(str);
@@ -535,6 +536,40 @@ public class ConfigManager
 		if (type == Duration.class)
 		{
 			return Duration.ofMillis(Long.parseLong(str));
+		}
+		if (type == int[].class)
+		{
+			if (str.contains(","))
+			{
+				return Arrays.stream(str.split(",")).mapToInt(Integer::valueOf).toArray();
+			}
+			return new int[] {Integer.parseInt(str)};
+		}
+		if (type == EnumSet.class)
+		{
+			try
+			{
+				String substring = str.substring(str.indexOf("{") + 1, str.length() - 1);
+				String[] splitStr = substring.split(", ");
+				final Class<? extends Enum> enumClass;
+				if (!str.contains("{"))
+				{
+					return null;
+				}
+				enumClass = (Class<? extends Enum>) Class.forName(str.substring(0, str.indexOf("{")));
+				EnumSet enumSet = EnumSet.noneOf(enumClass);
+				for (String s : splitStr)
+				{
+					enumSet.add(Enum.valueOf(enumClass, s.replace("[", "").replace("]", "")));
+				}
+				return enumSet;
+			}
+			catch (Exception e)
+			{
+				e.printStackTrace();
+				return null;
+			}
+
 		}
 		if (type == Map.class)
 		{
@@ -564,10 +599,6 @@ public class ConfigManager
 		if (object instanceof Enum)
 		{
 			return ((Enum) object).name();
-		}
-		if (object instanceof Font)
-		{
-			return FontManager.getFontName((Font)object);
 		}
 		if (object instanceof Dimension)
 		{
@@ -602,6 +633,18 @@ public class ConfigManager
 		{
 			return Long.toString(((Duration) object).toMillis());
 		}
+		if (object instanceof int[])
+		{
+			if (((int[]) object).length == 0)
+			{
+				return String.valueOf(object);
+			}
+			return StringUtils.join(object, ",");
+		}
+		if (object instanceof EnumSet)
+		{
+			return ((EnumSet) object).toArray()[0].getClass().getCanonicalName() + "{" + object.toString() + "}";
+		}
 		return object.toString();
 	}
 
@@ -633,22 +676,34 @@ public class ConfigManager
 
 		newestFile = STANDARD_SETTINGS_FILE;
 
-		for (File profileDir : PROFILES_DIR.listFiles())
-		{
-			if (!profileDir.isDirectory())
-			{
-				continue;
-			}
+		File[] profileDirFiles = PROFILES_DIR.listFiles();
 
-			for (File settings : profileDir.listFiles())
+		if (profileDirFiles != null)
+		{
+			for (File profileDir : profileDirFiles)
 			{
-				if (!settings.getName().equals(STANDARD_SETTINGS_FILE_NAME) ||
-					settings.lastModified() < newestFile.lastModified())
+				if (!profileDir.isDirectory())
 				{
 					continue;
 				}
 
-				newestFile = settings;
+				File[] settingsFiles = profileDir.listFiles();
+
+				if (settingsFiles == null)
+				{
+					continue;
+				}
+
+				for (File settings : settingsFiles)
+				{
+					if (!settings.getName().equals(STANDARD_SETTINGS_FILE_NAME) ||
+						settings.lastModified() < newestFile.lastModified())
+					{
+						continue;
+					}
+
+					newestFile = settings;
+				}
 			}
 		}
 

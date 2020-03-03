@@ -54,6 +54,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -74,6 +75,7 @@ import net.runelite.client.events.SessionOpen;
 import net.runelite.client.task.Schedule;
 import net.runelite.client.task.ScheduledMethod;
 import net.runelite.client.task.Scheduler;
+import net.runelite.client.ui.RuneLiteSplashScreen;
 import net.runelite.client.util.GameEventManager;
 
 @Singleton
@@ -118,6 +120,12 @@ public class PluginManager
 		this.configManager = configManager;
 		this.executor = executor;
 		this.sceneTileManager = sceneTileManager;
+
+		if (eventBus != null)
+		{
+			eventBus.subscribe(SessionOpen.class, this, this::onSessionOpen);
+			eventBus.subscribe(SessionClose.class, this, this::onSessionClose);
+		}
 	}
 
 	public void watch()
@@ -150,7 +158,7 @@ public class PluginManager
 				}
 				catch (PluginInstantiationException e)
 				{
-					log.warn("Error during starting/stopping plugin {}. {}", plugin.getClass().getSimpleName(), e);
+					log.warn("Error during starting/stopping plugin {}", plugin.getClass().getSimpleName(), e);
 				}
 			}));
 	}
@@ -171,7 +179,7 @@ public class PluginManager
 		return null;
 	}
 
-	public List<Config> getPluginConfigProxies()
+	private List<Config> getPluginConfigProxies()
 	{
 		List<Injector> injectors = new ArrayList<>();
 		injectors.add(RuneLite.getInjector());
@@ -210,6 +218,8 @@ public class PluginManager
 	public void startCorePlugins()
 	{
 		List<Plugin> scannedPlugins = new ArrayList<>(plugins);
+		int loaded = 0;
+
 		for (Plugin plugin : scannedPlugins)
 		{
 			try
@@ -218,14 +228,20 @@ public class PluginManager
 			}
 			catch (PluginInstantiationException ex)
 			{
-				log.warn("Unable to start plugin {}. {}", plugin.getClass().getSimpleName(), ex);
+				log.warn("Unable to start plugin {}", plugin.getClass().getSimpleName(), ex);
 				plugins.remove(plugin);
 			}
+
+			loaded++;
+
+			RuneLiteSplashScreen.stage(.80, 1, "Starting plugins", loaded, scannedPlugins.size());
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	List<Plugin> scanAndInstantiate(ClassLoader classLoader, String packageName) throws IOException
 	{
+		RuneLiteSplashScreen.stage(.59, "Loading plugins");
 		MutableGraph<Class<? extends Plugin>> graph = GraphBuilder
 			.directed()
 			.build();
@@ -266,7 +282,7 @@ public class PluginManager
 				continue;
 			}
 
-			Class<Plugin> pluginClass = (Class<Plugin>) clazz;
+			@SuppressWarnings("unchecked") Class<Plugin> pluginClass = (Class<Plugin>) clazz;
 			graph.addNode(pluginClass);
 		}
 
@@ -288,6 +304,7 @@ public class PluginManager
 
 		List<List<Class<? extends Plugin>>> sortedPlugins = topologicalGroupSort(graph);
 		sortedPlugins = Lists.reverse(sortedPlugins);
+		AtomicInteger loaded = new AtomicInteger();
 
 		final long start = System.currentTimeMillis();
 
@@ -305,13 +322,17 @@ public class PluginManager
 					try
 					{
 						plugin = instantiate(scannedPlugins, (Class<Plugin>) pluginClazz);
+						scannedPlugins.add(plugin);
 					}
 					catch (PluginInstantiationException e)
 					{
 						log.warn("Error instantiating plugin!", e);
 						return;
 					}
-					scannedPlugins.add(plugin);
+
+					loaded.getAndIncrement();
+
+					RuneLiteSplashScreen.stage(.60, .70, "Loading plugins", loaded.get(), scannedPlugins.size());
 				})));
 			curGroup.forEach(future ->
 			{
@@ -428,13 +449,14 @@ public class PluginManager
 
 		if (value != null)
 		{
-			return Boolean.valueOf(value);
+			return Boolean.parseBoolean(value);
 		}
 
 		final PluginDescriptor pluginDescriptor = plugin.getClass().getAnnotation(PluginDescriptor.class);
 		return pluginDescriptor == null || pluginDescriptor.enabledByDefault();
 	}
 
+	@SuppressWarnings("unchecked")
 	private Plugin instantiate(List<Plugin> scannedPlugins, Class<Plugin> clazz) throws PluginInstantiationException
 	{
 		PluginDependency[] pluginDependencies = clazz.getAnnotationsByType(PluginDependency.class);

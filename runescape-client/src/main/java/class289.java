@@ -1,50 +1,89 @@
-import net.runelite.mapping.Export;
 import net.runelite.mapping.ObfuscatedName;
-import net.runelite.mapping.ObfuscatedSignature;
 
-@ObfuscatedName("ko")
-public final class class289 {
-	@ObfuscatedName("q")
-	@Export("base37Table")
-	static final char[] base37Table;
-	@ObfuscatedName("w")
-	static long[] field3669;
+@ObfuscatedName("kc")
+public class class289 {
+	@ObfuscatedName("s")
+	static char[] field3631;
+	@ObfuscatedName("j")
+	static char[] field3630;
+	@ObfuscatedName("i")
+	static char[] field3632;
+	@ObfuscatedName("k")
+	static int[] field3633;
 
 	static {
-		base37Table = new char[]{'_', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-		field3669 = new long[12];
+		field3631 = new char[64];
 
-		for (int var0 = 0; var0 < field3669.length; ++var0) {
-			field3669[var0] = (long)Math.pow(37.0D, (double)var0);
+		int var0;
+		for (var0 = 0; var0 < 26; ++var0) {
+			field3631[var0] = (char)(var0 + 65);
 		}
 
-	}
-
-	@ObfuscatedName("q")
-	@ObfuscatedSignature(
-		signature = "(Lhp;III)[Llx;",
-		garbageValue = "1777014825"
-	)
-	public static IndexedSprite[] method5281(AbstractArchive var0, int var1, int var2) {
-		if (!Friend.doesSpriteExist(var0, var1, var2)) {
-			return null;
-		} else {
-			IndexedSprite[] var4 = new IndexedSprite[class326.SpriteBuffer_spriteCount];
-
-			for (int var5 = 0; var5 < class326.SpriteBuffer_spriteCount; ++var5) {
-				IndexedSprite var6 = var4[var5] = new IndexedSprite();
-				var6.width = class326.SpriteBuffer_spriteWidth;
-				var6.height = class326.SpriteBuffer_spriteHeight;
-				var6.xOffset = Varps.SpriteBuffer_xOffsets[var5];
-				var6.yOffset = class326.SpriteBuffer_yOffsets[var5];
-				var6.subWidth = class326.SpriteBuffer_spriteWidths[var5];
-				var6.subHeight = class216.SpriteBuffer_spriteHeights[var5];
-				var6.palette = Frames.SpriteBuffer_spritePalette;
-				var6.pixels = class326.SpriteBuffer_pixels[var5];
-			}
-
-			class16.method174();
-			return var4;
+		for (var0 = 26; var0 < 52; ++var0) {
+			field3631[var0] = (char)(var0 + 97 - 26);
 		}
+
+		for (var0 = 52; var0 < 62; ++var0) {
+			field3631[var0] = (char)(var0 + 48 - 52);
+		}
+
+		field3631[62] = '+';
+		field3631[63] = '/';
+		field3630 = new char[64];
+
+		for (var0 = 0; var0 < 26; ++var0) {
+			field3630[var0] = (char)(var0 + 65);
+		}
+
+		for (var0 = 26; var0 < 52; ++var0) {
+			field3630[var0] = (char)(var0 + 97 - 26);
+		}
+
+		for (var0 = 52; var0 < 62; ++var0) {
+			field3630[var0] = (char)(var0 + 48 - 52);
+		}
+
+		field3630[62] = '*';
+		field3630[63] = '-';
+		field3632 = new char[64];
+
+		for (var0 = 0; var0 < 26; ++var0) {
+			field3632[var0] = (char)(var0 + 65);
+		}
+
+		for (var0 = 26; var0 < 52; ++var0) {
+			field3632[var0] = (char)(var0 + 97 - 26);
+		}
+
+		for (var0 = 52; var0 < 62; ++var0) {
+			field3632[var0] = (char)(var0 + 48 - 52);
+		}
+
+		field3632[62] = '-';
+		field3632[63] = '_';
+		field3633 = new int[128];
+
+		for (var0 = 0; var0 < field3633.length; ++var0) {
+			field3633[var0] = -1;
+		}
+
+		for (var0 = 65; var0 <= 90; ++var0) {
+			field3633[var0] = var0 - 65;
+		}
+
+		for (var0 = 97; var0 <= 122; ++var0) {
+			field3633[var0] = var0 - 97 + 26;
+		}
+
+		for (var0 = 48; var0 <= 57; ++var0) {
+			field3633[var0] = var0 - 48 + 52;
+		}
+
+		int[] var2 = field3633;
+		field3633[43] = 62;
+		var2[42] = 62;
+		int[] var1 = field3633;
+		field3633[47] = 63;
+		var1[45] = 63;
 	}
 }

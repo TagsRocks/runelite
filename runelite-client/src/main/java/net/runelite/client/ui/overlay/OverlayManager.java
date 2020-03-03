@@ -39,7 +39,7 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.AccessLevel;
 import lombok.Getter;
-import net.runelite.api.MenuAction;
+import net.runelite.api.MenuOpcode;
 import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.api.widgets.WidgetItem;
@@ -123,7 +123,7 @@ public class OverlayManager
 
 	private void onMenuOptionClicked(MenuOptionClicked event)
 	{
-		if (event.getMenuAction() != MenuAction.RUNELITE_OVERLAY)
+		if (event.getMenuOpcode() != MenuOpcode.RUNELITE_OVERLAY)
 		{
 			return;
 		}
@@ -213,6 +213,17 @@ public class OverlayManager
 		}
 
 		return removeIf;
+	}
+
+	/**
+	 * Returns whether an overlay exists which matches the given predicate.
+	 *
+	 * @param filter Filter predicate function
+	 * @return {@code true} if any overlays match the given filter, {@code false} otherwise
+	 */
+	public synchronized boolean anyMatch(Predicate<Overlay> filter)
+	{
+		return overlays.stream().anyMatch(filter);
 	}
 
 	/**

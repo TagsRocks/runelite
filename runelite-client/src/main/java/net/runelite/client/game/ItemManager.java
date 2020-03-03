@@ -43,6 +43,7 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -374,7 +375,7 @@ public class ItemManager
 	{
 		ItemDefinition itemDefinition = getItemDefinition(itemId);
 
-		if (itemDefinition == null || itemDefinition.getName() == null || (!allowNote && itemDefinition.getNote() != -1))
+		if (itemDefinition.getName() == null || !allowNote && itemDefinition.getNote() != -1)
 		{
 			return null;
 		}
@@ -410,6 +411,7 @@ public class ItemManager
 	 * @param itemId item id
 	 * @return item composition
 	 */
+	@Nonnull
 	public ItemDefinition getItemDefinition(int itemId)
 	{
 		assert client.isClientThread() : "getItemDefinition must be called on client thread";

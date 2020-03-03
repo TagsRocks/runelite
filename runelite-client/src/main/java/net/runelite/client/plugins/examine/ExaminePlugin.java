@@ -38,11 +38,14 @@ import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
 import net.runelite.api.ItemDefinition;
+import net.runelite.api.ItemID;
 import net.runelite.api.events.ChatMessage;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.widgets.Widget;
+import net.runelite.api.widgets.WidgetID;
 import net.runelite.api.widgets.WidgetInfo;
+import static net.runelite.api.widgets.WidgetInfo.SEED_VAULT_ITEM_CONTAINER;
 import static net.runelite.api.widgets.WidgetInfo.TO_CHILD;
 import static net.runelite.api.widgets.WidgetInfo.TO_GROUP;
 import net.runelite.api.widgets.WidgetItem;
@@ -135,7 +138,7 @@ public class ExaminePlugin extends Plugin
 
 		ExamineType type;
 		int id, quantity = -1;
-		switch (event.getMenuAction())
+		switch (event.getMenuOpcode())
 		{
 			case EXAMINE_ITEM:
 			{
@@ -222,26 +225,32 @@ public class ExaminePlugin extends Plugin
 		log.debug("Got examine for {} {}: {}", pendingExamine.getType(), pendingExamine.getId(), event.getMessage());
 
 		// If it is an item, show the price of it
-		final ItemDefinition Itemdefinition;
+		final ItemDefinition itemDefinition;
 		if (pendingExamine.getType() == ExamineType.ITEM || pendingExamine.getType() == ExamineType.ITEM_BANK_EQ)
 		{
 			final int itemId = pendingExamine.getId();
 			final int itemQuantity = pendingExamine.getQuantity();
-			Itemdefinition = itemManager.getItemDefinition(itemId);
 
-			if (Itemdefinition != null)
+			if (itemId == ItemID.COINS_995)
 			{
-				final int id = itemManager.canonicalize(Itemdefinition.getId());
-				executor.submit(() -> getItemPrice(id, Itemdefinition, itemQuantity));
+				return;
+			}
+
+			itemDefinition = itemManager.getItemDefinition(itemId);
+
+			if (itemDefinition != null)
+			{
+				final int id = itemManager.canonicalize(itemDefinition.getId());
+				executor.submit(() -> getItemPrice(id, itemDefinition, itemQuantity));
 			}
 		}
 		else
 		{
-			Itemdefinition = null;
+			itemDefinition = null;
 		}
 
 		// Don't submit examine info for tradeable items, which we already have from the RS item api
-		if (Itemdefinition != null && Itemdefinition.isTradeable())
+		if (itemDefinition != null && itemDefinition.isTradeable())
 		{
 			return;
 		}
@@ -299,7 +308,11 @@ public class ExaminePlugin extends Plugin
 				return new int[]{widgetItem.getItemQuantity(), widgetItem.getItemId()};
 			}
 		}
-		else if (WidgetInfo.BANK_ITEM_CONTAINER.getGroupId() == widgetGroup)
+		else if (WidgetInfo.BANK_ITEM_CONTAINER.getGroupId() == widgetGroup
+			|| WidgetInfo.CLUE_SCROLL_REWARD_ITEM_CONTAINER.getGroupId() == widgetGroup
+			|| WidgetInfo.LOOTING_BAG_CONTAINER.getGroupId() == widgetGroup
+			|| WidgetID.SEED_VAULT_INVENTORY_GROUP_ID == widgetGroup
+			|| WidgetID.SEED_BOX_GROUP_ID == widgetGroup)
 		{
 			Widget[] children = widget.getDynamicChildren();
 			if (actionParam < children.length)
@@ -327,6 +340,24 @@ public class ExaminePlugin extends Plugin
 			}
 		}
 		else if (WidgetInfo.LOOTING_BAG_CONTAINER.getGroupId() == widgetGroup)
+		{
+			Widget[] children = widget.getDynamicChildren();
+			if (actionParam < children.length)
+			{
+				Widget widgetItem = children[actionParam];
+				return new int[]{widgetItem.getItemQuantity(), widgetItem.getItemId()};
+			}
+		}
+		else if (WidgetID.SEED_VAULT_GROUP_ID == widgetGroup)
+		{
+			Widget[] children = client.getWidget(SEED_VAULT_ITEM_CONTAINER).getDynamicChildren();
+			if (actionParam < children.length)
+			{
+				Widget widgetItem = children[actionParam];
+				return new int[]{widgetItem.getItemQuantity(), widgetItem.getItemId()};
+			}
+		}
+		else if (WidgetID.SEED_VAULT_INVENTORY_GROUP_ID == widgetGroup)
 		{
 			Widget[] children = widget.getDynamicChildren();
 			if (actionParam < children.length)

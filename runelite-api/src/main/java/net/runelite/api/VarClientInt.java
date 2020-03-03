@@ -42,16 +42,19 @@ public enum VarClientInt
 */
 	TOOLTIP_VISIBLE(2),
 
+	/**
+	 * Current message layer mode
+	 * @see net.runelite.api.vars.InputType
+	 */
 	INPUT_TYPE(5),
 
 	MEMBERSHIP_STATUS(103),
-/**
- * -1 = player inventory closed
- * 3 = player inventory opened
-*/
-	PLAYER_INVENTORY_OPENED(171),
 
-	INVENTORY_TAB(171),
+	/**
+	 * The currently open interface tab
+	 * @see net.runelite.api.vars.InterfaceTab
+	 */
+	INTERFACE_TAB(171),
 
 	WORLD_MAP_SEARCH_FOCUSED(190);
 

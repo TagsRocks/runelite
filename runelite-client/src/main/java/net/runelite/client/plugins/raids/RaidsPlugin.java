@@ -34,7 +34,6 @@ import java.awt.image.BufferedImage;
 import java.text.DecimalFormat;
 import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -52,7 +51,7 @@ import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.InstanceTemplates;
 import net.runelite.api.ItemID;
-import net.runelite.api.MenuAction;
+import net.runelite.api.MenuOpcode;
 import net.runelite.api.NullObjectID;
 import static net.runelite.api.Perspective.SCENE_SIZE;
 import net.runelite.api.Player;
@@ -94,9 +93,13 @@ import net.runelite.client.ui.overlay.infobox.InfoBoxManager;
 import net.runelite.client.ui.overlay.tooltip.Tooltip;
 import net.runelite.client.ui.overlay.tooltip.TooltipManager;
 import net.runelite.client.util.ImageUtil;
-import net.runelite.client.util.Text;
+import net.runelite.api.util.Text;
 import org.apache.commons.lang3.StringUtils;
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
+import net.runelite.client.ws.PartyMember;
+import net.runelite.client.ws.PartyService;
+import net.runelite.client.ws.WSClient;
+import net.runelite.http.api.ws.messages.party.PartyChatMessage;
 
 @PluginDescriptor(
 	name = "CoX Scouter",
@@ -115,7 +118,6 @@ public class RaidsPlugin extends Plugin
 	private static final String RAID_START_MESSAGE = "The raid has begun!";
 	private static final String LEVEL_COMPLETE_MESSAGE = "level complete!";
 	private static final String RAID_COMPLETE_MESSAGE = "Congratulations - your raid is complete!";
-	private static final String SPLIT_REGEX = "\\s*,\\s*";
 	private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("###.##");
 	private static final Pattern ROTATION_REGEX = Pattern.compile("\\[(.*?)]");
 	private static final Pattern RAID_COMPLETE_REGEX = Pattern.compile("Congratulations - your raid is complete! Duration: ([0-9:]+)");
@@ -199,6 +201,28 @@ public class RaidsPlugin extends Plugin
 	@Inject
 	private EventBus eventBus;
 	private boolean raidStarted;
+
+	@Inject
+	private PartyService party;
+
+	@Inject
+	private WSClient ws;
+
+	@Getter
+	private final List<String> roomWhitelist = new ArrayList<>();
+
+	@Getter
+	private final List<String> roomBlacklist = new ArrayList<>();
+
+	@Getter
+	private final List<String> rotationWhitelist = new ArrayList<>();
+
+	@Getter
+	private final List<String> layoutWhitelist = new ArrayList<>();
+
+	@Getter
+	private Raid raid;
+
 	private boolean inRaidChambers;
 	private boolean enhanceScouterTitle;
 	private boolean hideBackground;
@@ -211,7 +235,6 @@ public class RaidsPlugin extends Plugin
 	private boolean displayFloorBreak;
 	private boolean showRecommendedItems;
 	private boolean alwaysShowWorldAndCC;
-	private boolean layoutMessage;
 	private boolean colorTightrope;
 	private boolean crabHandler;
 	private boolean enableRotationWhitelist;
@@ -232,7 +255,8 @@ public class RaidsPlugin extends Plugin
 	private Color rareCrabColor;
 	private Color scavPrepColor;
 	private Color tightropeColor;
-	private Raid raid;
+	private boolean displayLayoutMessage;
+	private String layoutMessage;
 	private RaidsTimer timer;
 	private WidgetOverlay widgetOverlay;
 	private NavigationButton navButton;
@@ -244,10 +268,6 @@ public class RaidsPlugin extends Plugin
 	private String tooltip;
 	private String goodCrabs;
 	private String layoutFullCode;
-	private List<String> roomWhitelist = new ArrayList<>();
-	private List<String> roomBlacklist = new ArrayList<>();
-	private List<String> rotationWhitelist = new ArrayList<>();
-	private List<String> layoutWhitelist = new ArrayList<>();
 	private List<String> partyMembers = new ArrayList<>();
 	private List<String> startingPartyMembers = new ArrayList<>();
 	private Map<String, List<Integer>> recommendedItemsList = new HashMap<>();
@@ -529,7 +549,7 @@ public class RaidsPlugin extends Plugin
 	private void onOverlayMenuClicked(OverlayMenuClicked event)
 	{
 		OverlayMenuEntry entry = event.getEntry();
-		if (entry.getMenuAction() == MenuAction.RUNELITE_OVERLAY &&
+		if (entry.getMenuOpcode() == MenuOpcode.RUNELITE_OVERLAY &&
 			entry.getTarget().equals("Raids party overlay"))
 		{
 			switch (entry.getOption())
@@ -688,7 +708,7 @@ public class RaidsPlugin extends Plugin
 
 	private void sendRaidLayoutMessage()
 	{
-		if (!this.layoutMessage)
+		if (!this.displayLayoutMessage)
 		{
 			return;
 		}
@@ -696,16 +716,27 @@ public class RaidsPlugin extends Plugin
 		final String layout = getRaid().getLayout().toCodeString();
 		final String rooms = getRaid().toRoomString();
 		final String raidData = "[" + layout + "]: " + rooms;
-
-		chatMessageManager.queue(QueuedMessage.builder()
-			.type(ChatMessageType.FRIENDSCHATNOTIFICATION)
-			.runeLiteFormattedMessage(new ChatMessageBuilder()
+		layoutMessage = new ChatMessageBuilder()
 				.append(ChatColorType.HIGHLIGHT)
 				.append("Layout: ")
 				.append(ChatColorType.NORMAL)
 				.append(raidData)
-				.build())
-			.build());
+				.build();
+
+		final PartyMember localMember = party.getLocalMember();
+		if (party.getMembers().isEmpty() || localMember == null)
+		{
+			chatMessageManager.queue(QueuedMessage.builder()
+				.type(ChatMessageType.FRIENDSCHATNOTIFICATION)
+				.runeLiteFormattedMessage(layoutMessage)
+				.build());
+		}
+		else
+		{
+			final PartyChatMessage message = new PartyChatMessage(layoutMessage);
+			message.setMemberId(localMember.getMemberId());
+			ws.send(message);
+		}
 
 		if (recordRaid() != null)
 		{
@@ -779,7 +810,7 @@ public class RaidsPlugin extends Plugin
 			{
 				continue;
 			}
-			String[] itemNames = everything.substring(split).split(SPLIT_REGEX);
+			List<String> itemNames = Text.fromCSV(everything.substring(split));
 
 			map.computeIfAbsent(key, k -> new ArrayList<>());
 
@@ -828,28 +859,28 @@ public class RaidsPlugin extends Plugin
 		}
 		else
 		{
-			list.addAll(Arrays.asList(input.toLowerCase().split(SPLIT_REGEX)));
+			list.addAll(Text.fromCSV(input.toLowerCase()));
 		}
 	}
 
 	int getRotationMatches()
 	{
 		String rotation = raid.getRotationString().toLowerCase();
-		String[] bosses = rotation.split(SPLIT_REGEX);
+		List<String> bosses = Text.fromCSV(rotation);
 
 		if (rotationWhitelist.contains(rotation))
 		{
-			return bosses.length;
+			return bosses.size();
 		}
 
 		for (String whitelisted : rotationWhitelist)
 		{
 			int matches = 0;
-			String[] whitelistedBosses = whitelisted.split(SPLIT_REGEX);
+			List<String> whitelistedBosses = Text.fromCSV(whitelisted);
 
-			for (int i = 0; i < whitelistedBosses.length; i++)
+			for (int i = 0; i < whitelistedBosses.size(); i++)
 			{
-				if (i < bosses.length && whitelistedBosses[i].equals(bosses[i]))
+				if (i < bosses.size() && whitelistedBosses.get(i).equals(bosses.get(i)))
 				{
 					matches++;
 				}
@@ -1240,7 +1271,7 @@ public class RaidsPlugin extends Plugin
 		this.showRecommendedItems = config.showRecommendedItems();
 		this.recommendedItems = config.recommendedItems();
 		this.alwaysShowWorldAndCC = config.alwaysShowWorldAndCC();
-		this.layoutMessage = config.layoutMessage();
+		this.displayLayoutMessage = config.displayLayoutMessage();
 		this.colorTightrope = config.colorTightrope();
 		this.tightropeColor = config.tightropeColor();
 		this.crabHandler = config.crabHandler();

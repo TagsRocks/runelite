@@ -1,0 +1,12 @@
+repositories {
+    maven {
+        url "https://raw.githubusercontent.com/runelite-extended/maven-repo/master"
+        // Look for artifacts here if not found at the above location
+        artifactUrls "https://github.com/open-osrs/fernflower/releases/download/v07082019/fernflower-07082019.jar"
+    }
+    mavenLocal()
+}
+dependencies {
+    compile localGroovy()
+    implementation group: 'net.runelite', name: 'fernflower', version: '07082019'
+}

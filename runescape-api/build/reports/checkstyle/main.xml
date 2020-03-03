@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\Construct.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\Export.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\Implements.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\Import.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\ObfuscatedGetter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\ObfuscatedName.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\mapping\ObfuscatedSignature.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSAbstractArchive.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSAbstractFont.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSAbstractRasterProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSActor.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSAnimation.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSArchive.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSBoundaryObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSBuddy.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSBuffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSCanvas.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSChatChannel.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSClanChat.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSClanMate.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSClient.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSClientPreferences.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSCollisionMap.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSDecimator.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSDualNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSDynamicObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSEntity.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSEnumDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSEvictingDualNodeHashTable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFileOnDisk.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFloorDecoration.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFont.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFrames.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFriend.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFriendSystem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSFriendsList.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSGameObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSGameShell.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSGrandExchangeOffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSGraphicsObject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSHealthBar.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSHealthBarDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSHealthBarUpdate.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIgnoreList.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIgnored.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIndexedSprite.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIntegerNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSInterfaceParent.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSItemContainer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSItemDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIterableNodeDeque.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSIterableNodeHashTable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSKeyHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSLoginType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSMenuAction.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSMessage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSModel.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSModelData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSMouseHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSMouseRecorder.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSMouseWheelHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSNPC.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSNPCDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSNode.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSNodeDeque.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSNodeHashTable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSObjectDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSPacketBuffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSPcmStream.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSPcmStreamMixer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSPlayer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSPlayerAppearance.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSProjectile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSRasterProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSRawPcmStream.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSRawSound.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSReflectionCheck.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSRunException.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSScene.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSScript.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSScriptEvent.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSSequenceDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSSkeleton.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSSoundEffect.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSSprite.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTexture.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTextureProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTileItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTileItemPile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTileModel.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSTilePaint.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSUser.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSUserList.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSUsername.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSVarbitDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSVarcs.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWallDecoration.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWidget.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWorld.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWorldMap.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWorldMapArea.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWorldMapElement.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\runescape-api\src\main\java\net\runelite\rs\api\RSWorldMapManager.java">
+</file>
+</checkstyle>

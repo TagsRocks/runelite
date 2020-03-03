@@ -29,80 +29,42 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import net.runelite.api.Player;
-import net.runelite.api.Prayer;
-import net.runelite.http.api.hiscore.Skill;
+import net.runelite.http.api.hiscore.HiscoreResult;
 
-/*
-You may be asking, why in the fuck is there so much information
-being gathered? The answer is, why not. Always plan for the future.
-Better to have too much than to have too little.
- */
 @Getter(AccessLevel.PACKAGE)
 @Setter(AccessLevel.PACKAGE)
 @ToString(exclude = "player")
 class PlayerContainer
 {
-	private AttackStyle attackStyle;
-	private AttackStyle weakness;
-	private boolean attacking;
-	private boolean logging;
-	private boolean scouted;
-	private boolean target;
-	private double drainRate;
-	private double estimatedPrayer;
-	private int magicAttack;
-	private int magicDefence;
-	private int meleeAttack;
-	private int meleeDefence;
-	private int prayerBonus;
-	private int rangeAttack;
-	private int rangeDefence;
-	private int risk;
-	private int scoutTimer;
-	private int timer;
-	private int weapon;
-	private int wildyLevel;
+	private HiscoreResult skills;
 	private LinkedHashMap<Integer, Integer> gear;
 	private LinkedHashMap<Integer, Integer> riskedGear;
 	private Player player;
-	private Prayer overhead;
-	private Prayer predictedPrayer;
-	private Skill prayer;
-	private String estimatedPrayerString;
 	private String location;
 	private String name;
 	private String targetString;
+	private boolean httpRetry;
+	private boolean scouted;
+	private int prayer;
+	private int risk;
+	private int scoutTimer;
+	private int weapon;
+	private int wildyLevel;
 
-	PlayerContainer(Player player, Skill prayer)
+	PlayerContainer(Player player)
 	{
-		this.attacking = false;
-		this.attackStyle = AttackStyle.UNKNOWN;
-		this.drainRate = 0;
-		this.estimatedPrayer = 0;
-		this.estimatedPrayerString = "";
 		this.gear = new LinkedHashMap<>();
+		this.httpRetry = false;
 		this.location = "N/A";
-		this.logging = false;
-		this.magicAttack = 0;
-		this.magicDefence = 0;
-		this.meleeAttack = 0;
-		this.meleeDefence = 0;
 		this.name = player.getName();
-		this.overhead = null;
 		this.player = player;
-		this.prayer = prayer;
-		this.prayerBonus = 0;
-		this.predictedPrayer = null;
-		this.rangeAttack = 0;
-		this.rangeDefence = 0;
+		this.prayer = -1;
 		this.risk = 0;
 		this.riskedGear = new LinkedHashMap<>();
-		this.scouted = false;
 		this.scoutTimer = 500;
-		this.target = false;
+		this.scouted = false;
+		this.skills = null;
 		this.targetString = "";
-		this.timer = 0;
-		this.weakness = AttackStyle.UNKNOWN;
 		this.weapon = 0;
 		this.wildyLevel = 0;
 	}

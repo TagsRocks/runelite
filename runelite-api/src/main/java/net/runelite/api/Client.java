@@ -31,6 +31,7 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import net.runelite.api.coords.LocalPoint;
 import net.runelite.api.coords.WorldPoint;
@@ -130,11 +131,11 @@ public interface Client extends GameShell
 	GameState getGameState();
 
 	/**
-	 * Sets the current game state.
+	 * Sets the current game state
 	 *
-	 * @param gameState new game state
+	 * @param gameState
 	 */
-	void setGameState(int gameState);
+	void setGameState(GameState gameState);
 
 	/**
 	 * Gets the current logged in username.
@@ -341,6 +342,7 @@ public interface Client extends GameShell
 	 *
 	 * @return the logged in player
 	 */
+	@Nullable
 	Player getLocalPlayer();
 
 	/**
@@ -350,6 +352,7 @@ public interface Client extends GameShell
 	 * @return the corresponding item composition
 	 * @see ItemID
 	 */
+	@Nonnull
 	ItemDefinition getItemDefinition(int id);
 
 	/**
@@ -420,6 +423,7 @@ public interface Client extends GameShell
 	 *
 	 * @return the selected tile
 	 */
+	@Nullable
 	Tile getSelectedSceneTile();
 
 	/**
@@ -434,6 +438,7 @@ public interface Client extends GameShell
 	 *
 	 * @return the dragged widget, null if not dragging any widget
 	 */
+	@Nullable
 	Widget getDraggedWidget();
 
 	/**
@@ -444,6 +449,7 @@ public interface Client extends GameShell
 	 *
 	 * @return the dragged on widget, null if not dragging any widget
 	 */
+	@Nullable
 	Widget getDraggedOnWidget();
 
 	/**
@@ -569,6 +575,12 @@ public interface Client extends GameShell
 	 * @param entries new array of open menu entries
 	 */
 	void setMenuEntries(MenuEntry[] entries);
+
+	/**
+	 * Set the amount of menu entries the client has.
+	 * If you decrement this count, it's the same as removing the last one
+	 */
+	void setMenuOptionCount(int count);
 
 	/**
 	 * Checks whether a right-click menu is currently open.
@@ -701,7 +713,7 @@ public interface Client extends GameShell
 	 * @param varbit the variable
 	 * @param value the new value
 	 */
-	void setSetting(Varbits varbit, int value);
+	void setVarbit(Varbits varbit, int value);
 
 	/**
 	 * Gets the value of a given variable.
@@ -1012,6 +1024,11 @@ public interface Client extends GameShell
 	int getKeyboardIdleTicks();
 
 	/**
+	 * Returns an array of booleans relating to keys pressed.
+	 */
+	boolean[] getPressedKeys();
+
+	/**
 	 * Changes how game behaves based on memory mode. Low memory mode skips
 	 * drawing of all floors and renders ground textures in low quality.
 	 *
@@ -1247,11 +1264,10 @@ public interface Client extends GameShell
 	 *
 	 * This method must be ran on the client thread and is not reentrant
 	 *
-	 * @param id the script ID
-	 * @param args additional arguments to execute the script with
+	 * @param args the script id, then any additional arguments to execute the script with
 	 * @see ScriptID
 	 */
-	void runScript(int id, Object... args);
+	void runScript(Object... args);
 
 	/**
 	 * Checks whether or not there is any active hint arrow.
@@ -1448,11 +1464,46 @@ public interface Client extends GameShell
 	void setNPCsHidden(boolean state);
 
 	/**
-	 * Sets which NPCs are hidden
+	 * Increments the counter for how many times this npc has been selected to be hidden
 	 *
-	 * @param names the names of the npcs seperated by ','
+	 * @param name npc name
 	 */
-	void setNPCsNames(String names);
+	void addHiddenNpcName(String name);
+
+	/**
+	 * Decrements the counter for how many times this npc has been selected to be hidden
+	 *
+	 * @param name npc name
+	 */
+	void removeHiddenNpcName(String name);
+
+	/**
+	 * Forcibly unhides an npc by setting its counter to zero
+	 *
+	 * @param name npc name
+	 */
+	void forciblyUnhideNpcName(String name);
+
+	/**
+	 * Increments the counter for how many times this npc has been selected to be hidden on death
+	 *
+	 * @param name npc name
+	 */
+	void addHiddenNpcDeath(String name);
+
+	/**
+	 * Decrements the counter for how many times this npc has been selected to be hidden on death
+	 *
+	 * @param name npc name
+	 */
+	void removeHiddenNpcDeath(String name);
+
+	/**
+	 * Forcibly unhides a hidden-while-dead npc by setting its counter to zero
+	 *
+	 * @param name npc name
+	 */
+	void forciblyUnhideNpcDeath(String name);
 
 	/**
 	 * Sets whether 2D sprites (ie. overhead prayers) related to
@@ -1470,11 +1521,25 @@ public interface Client extends GameShell
 	void setAttackersHidden(boolean state);
 
 	/**
+	 * Hides players input here.
+	 *
+	 * @param names the names of the players
+	 */
+	void setHideSpecificPlayers(List<String> names);
+
+	/**
 	 * Sets whether projectiles are hidden.
 	 *
 	 * @param state new projectile hidden state
 	 */
 	void setProjectilesHidden(boolean state);
+
+	/**
+	 * Sets whether dead NPCs are hidden.
+	 *
+	 * @param state new NPC hidden state
+	 */
+	void setDeadNPCsHidden(boolean state);
 
 	/**
 	 * Gets an array of tile collision data.
@@ -1664,7 +1729,7 @@ public interface Client extends GameShell
 	 *
 	 * @param param0 This is SceneX for gameObject, index for items, and 0 for npc.
 	 * @param param1 This is SceneY for gameObject, static for items, and 0 for npc.
-	 * @param type Menu entry Action type.
+	 * @param type Menu entry Action opcode.
 	 * @param id Targets ID
 	 * @param menuEntry Do these actually matter?
 	 * @param targetString Do these actually matter?
@@ -1676,9 +1741,9 @@ public interface Client extends GameShell
 	MouseRecorder getMouseRecorder();
 
 	void setPrintMenuActions(boolean b);
-	
+
 	String getSelectedSpellName();
-	
+
 	boolean isSpellSelected();
 
 	/**
@@ -1705,12 +1770,6 @@ public interface Client extends GameShell
 	 * Set spells excluded from above hiding
 	 */
 	void setUnhiddenCasts(Set<String> casts);
-	
-	/**
-	 * Sorts the current menu entries in the same way the client does this.
-	 * The last entry will be the left click one after this.
-	 */
-	void sortMenuEntries();
 
 	/**
 	 * Add player to friendlist
@@ -1726,7 +1785,13 @@ public interface Client extends GameShell
 
 	void setModulus(BigInteger modulus);
 
-	String getCodebase();
+	/**
+	 * Returns the max item index + 1 from cache
+	 */
+	int getItemCount();
 
-	void setCodebase(String codebase);
+	/**
+	 * Adds a MenuEntry to the current menu.
+	 */
+	void insertMenuItem(String action, String target, int opcode, int identifier, int argument1, int argument2, boolean forceLeftClick);
 }

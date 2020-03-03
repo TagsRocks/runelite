@@ -132,11 +132,11 @@ under the License.
     </server>
     -->
 
-<!--    <server>
+    <server>
       <id>runelite</id>
       <username>repo</username>
       <password>${env.REPO_PASSWORD}</password>
-    </server>-->
+    </server>
 
   </servers>
 
@@ -257,10 +257,8 @@ under the License.
       <id>runelite</id>
 
       <properties>
-        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <maven.javadoc.skip>false</maven.javadoc.skip>
         <checkstyle.skip>false</checkstyle.skip>
-		<archetype.test.skip>true</archetype.test.skip>
-		<test.skip>false</test.skip>
       </properties>
     </profile>
   </profiles>

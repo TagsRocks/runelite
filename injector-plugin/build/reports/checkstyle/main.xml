@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\Inject.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectConstruct.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectGetter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectHook.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectHookMethod.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectInvoker.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectMojo.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectSetter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectUtil.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectionException.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\Injector.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\InjectorValidator.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\MixinInjector.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\ClearColorBuffer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\DrawAfterWidgets.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\DrawMenu.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\HidePlayerAttacks.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\Occluder.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\RasterizerHook.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\RenderDraw.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\injector-plugin\src\main\java\net\runelite\injector\raw\ScriptVM.java">
+</file>
+</checkstyle>

@@ -45,9 +45,11 @@ import net.runelite.api.Perspective;
 import net.runelite.api.Point;
 import net.runelite.api.Prayer;
 import net.runelite.api.TileObject;
+import net.runelite.api.VarClientInt;
 import net.runelite.api.coords.LocalPoint;
 import net.runelite.api.coords.WorldArea;
 import net.runelite.api.coords.WorldPoint;
+import net.runelite.api.vars.InterfaceTab;
 import net.runelite.api.widgets.Widget;
 
 
@@ -131,6 +133,20 @@ public class OverlayUtil
 		}
 
 		Point textLocation = actor.getCanvasTextLocation(graphics, text, actor.getLogicalHeight() + 40);
+		if (textLocation != null)
+		{
+			renderTextLocation(graphics, textLocation, text, color);
+		}
+	}
+
+	public static void renderActorTextOverlay(Graphics2D graphics, Actor actor, String text, Color color)
+	{
+		renderActorTextOverlay(graphics, actor, text, color, 40);
+	}
+
+	public static void renderActorTextOverlay(Graphics2D graphics, Actor actor, String text, Color color, int offset)
+	{
+		Point textLocation = actor.getCanvasTextLocation(graphics, text, actor.getLogicalHeight() + offset);
 		if (textLocation != null)
 		{
 			renderTextLocation(graphics, textLocation, text, color);
@@ -348,7 +364,7 @@ public class OverlayUtil
 	{
 		Widget widget = client.getWidget(prayer.getWidgetInfo());
 
-		if (widget == null || widget.isHidden())
+		if (widget == null || client.getVar(VarClientInt.INTERFACE_TAB) != InterfaceTab.PRAYER.getId())
 		{
 			return null;
 		}
