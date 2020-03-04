@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractArchive.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractByteArrayCopier.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractFont.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractRasterProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractSocket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractSound.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractUserComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractWorldMapData.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AbstractWorldMapIcon.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AccessFile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Actor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Animation.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Archive.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ArchiveDisk.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ArchiveDiskAction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ArchiveDiskActionHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ArchiveLoader.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AttackOption.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\AudioFilter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BZip2Decompressor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BZip2State.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BoundaryObject.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Bounds.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Buddy.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BuddyRankComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Buffer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BufferedFile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BufferedNetSocket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BufferedSink.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\BufferedSource.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ByteArrayNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ByteArrayPool.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Calendar.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Canvas.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ChatChannel.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ClanChat.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ClanMate.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Client.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ClientPacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ClientPreferences.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Clock.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\CollisionMap.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Coord.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Decimator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DefaultsGroup.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DemotingHashTable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DesktopPlatformInfoProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DevicePcmPlayer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DevicePcmPlayerProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DirectByteArrayCopier.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DirectWrapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DualNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DualNodeDeque.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\DynamicObject.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Entity.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\EnumDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Enumerated.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\EvictingDualNodeHashTable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FaceNormal.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FileSystem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FillMode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FloorDecoration.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FloorOverlayDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FloorUnderlayDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Font.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FontName.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Fonts.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Frames.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Friend.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FriendLoginUpdate.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FriendSystem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\FriendsList.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GZipDecompressor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GameObject.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GameShell.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeEvent.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeEvents.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOffer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferAgeComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferNameComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferOwnWorldComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferTotalQuantityComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferUnitPriceComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GrandExchangeOfferWorldComparator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GraphicsDefaults.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\GraphicsObject.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\HealthBar.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\HealthBarDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\HealthBarUpdate.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\HitSplatDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\HorizontalAlignment.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Huffman.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IgnoreList.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Ignored.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IndexedSprite.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Instrument.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IntHashTable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IntegerNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\InterfaceParent.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Interpreter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\InvDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IsaacCipher.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ItemContainer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ItemDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableDualNodeQueue.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableDualNodeQueueIterator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableNodeDeque.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableNodeDequeDescendingIterator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableNodeHashTable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\IterableNodeHashTableIterator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\JagexCache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\KeyHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\KitDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Language.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Link.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\LinkDeque.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Login.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\LoginPacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\LoginScreenAnimation.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\LoginType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MenuAction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Message.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Messages.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MidiFileReader.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MidiPcmStream.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MilliClock.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Model.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ModelData.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ModelData0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MouseHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MouseRecorder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MouseWheel.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MouseWheelHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MusicPatch.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MusicPatchNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MusicPatchNode2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MusicPatchPcmStream.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\MusicTrack.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NPC.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NPCDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NanoClock.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NetCache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NetFileRequest.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NetSocket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Node.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NodeDeque.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\NodeHashTable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ObjectDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ObjectNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ObjectSound.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Occluder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PacketBuffer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PacketBufferNode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PacketWriter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ParamDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PcmPlayer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PcmPlayerProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PcmStream.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PcmStreamMixer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PcmStreamMixerListener.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PendingSpawn.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PlatformInfo.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PlatformInfoProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Player.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PlayerAppearance.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PlayerType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Players.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\PrivateChatMode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Projectile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\RasterProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Rasterizer2D.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Rasterizer3D.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\RawPcmStream.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\RawSound.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ReflectionCheck.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\RouteStrategy.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\RunException.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Scene.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Script.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ScriptEvent.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ScriptFrame.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SecureRandomCallable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SecureRandomFuture.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SequenceDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ServerBuild.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ServerPacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Skeleton.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Skills.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SoftWrapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SoundCache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SoundEffect.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SoundEnvelope.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SoundSystem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SpotAnimationDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Sprite.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\SpriteMask.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Strings.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\StructDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\StudioGame.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Task.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TaskHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Texture.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TextureLoader.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TextureProvider.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Tile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TileItem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TileItemPile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TileModel.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TilePaint.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Tiles.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Timer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\TriBool.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UrlRequest.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UrlRequester.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\User.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator10.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator3.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator4.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator5.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator6.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator7.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator8.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserComparator9.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\UserList.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Username.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Usernamed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VarbitDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VarcInt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Varcs.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VarpDefinition.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Varps.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VertexNormal.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VerticalAlignment.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\ViewportMouse.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VorbisCodebook.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VorbisFloor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VorbisMapping.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VorbisResidue.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\VorbisSample.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WallDecoration.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Widget.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\World.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMap.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapArchiveLoader.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapArea.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapAreaData.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapCacheName.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapData_0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapData_1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapDecoration.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapDecorationType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapElement.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapEvent.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapID.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapIcon_0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapIcon_1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapLabel.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapLabelSize.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapManager.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapRectangle.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapRegion.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSection.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSection0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSection1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSection2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSectionType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\WorldMapSprite.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\Wrapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class13.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class14.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class146.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class16.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class160.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class161.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class162.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class173.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class181.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class185.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class186.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class188.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class189.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class191.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class192.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class195.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class197.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class208.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class210.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class215.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class218.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class219.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class222.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class223.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class225.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class227.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class237.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class247.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class266.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class268.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class269.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class270.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class286.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class287.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class288.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class289.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class290.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class293.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class296.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class297.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class3.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class30.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class300.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class312.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class319.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class32.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class325.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class336.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class338.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class339.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class4.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class40.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class42.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class43.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class47.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class49.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class51.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class60.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class65.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class80.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class81.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class83.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\class96.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\net\runelite\rs\Opcodes.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\net\runelite\rs\Reflection.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runescape-client\src\main\java\net\runelite\rs\ScriptOpcodes.java">
+</file>
+</checkstyle>

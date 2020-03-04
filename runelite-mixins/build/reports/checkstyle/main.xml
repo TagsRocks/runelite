@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Copy.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\FieldHook.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Inject.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\MethodHook.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Mixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Mixins.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Replace.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\api\mixins\Shadow.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\CameraMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\ClickboxMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\EntityHiderBridgeMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\EntityHiderMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\MenuMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\MinimapMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\ProcessClientErrorMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSAbstractArchiveMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSActorMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSBoundaryObjectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSBufferMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSCanvasMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSChatChannelMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSClanChatMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSClanMateMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSClientMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSDynamicObjectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSEnumDefinitionMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSFloorDecorationMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSFriendMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSFriendSystemMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSGameObjectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSGameShellMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSGrandExchangeOfferMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSGraphicsObjectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSHealthBarDefinitionMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSIgnoredMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSItemContainerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSItemDefinitionMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSKeyHandlerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSMessageMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSModelDataMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSModelMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSMouseHandlerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSMouseWheelHandlerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSNPCDefinitionMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSNPCMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSNodeHashTableMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSNodeMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSPlayerAppearanceMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSPlayerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSProjectileMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSRasterProviderMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSRasterizer2DMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSSceneMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSSequenceDefinitionMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSSpriteMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTextureMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTextureProviderMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTileItemMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTileItemPileMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTileMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTileModelMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTileObjectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSTilePaintMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSUserListMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSVarcsMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSWallDecorationMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSWidgetMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSWorldMapManagerMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSWorldMapMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\RSWorldMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\ScriptVMMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\SoundEffectMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\SpriteMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\StretchedModeMaxSizeMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\StretchedModeMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\VarbitMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\WidgetSpriteMixin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\runelite-mixins\src\main\java\net\runelite\mixins\WorldHoppingMixin.java">
+</file>
+</checkstyle>

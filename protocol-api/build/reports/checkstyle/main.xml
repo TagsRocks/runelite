@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\handshake\HandshakePacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\handshake\HandshakeResponsePacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\handshake\HandshakeType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\handshake\LoginHandshakePacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\handshake\UpdateHandshakePacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\login\HandshakeResponseType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\update\ArchiveRequestPacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\update\ArchiveResponsePacket.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol-api\src\main\java\net\runelite\protocol\api\update\EncryptionPacket.java">
+</file>
+</checkstyle>

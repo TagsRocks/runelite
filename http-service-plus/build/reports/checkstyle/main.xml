@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\SpringBootWebApplication.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\SpringWebMvcConfigurer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\animation\AnimationCache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\animation\AnimationController.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\animation\AnimationEndpoint.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\animation\AnimationEntry.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\chat\ChatController.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\chat\ChatService.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\xtea\XteaCache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\xtea\XteaController.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\xtea\XteaEndpoint.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-service-plus\src\main\java\net\runelite\http\service\xtea\XteaEntry.java">
+</file>
+</checkstyle>

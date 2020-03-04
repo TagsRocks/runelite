@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\handshake\HandshakeDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\handshake\HandshakeResponseEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\handshake\LoginHandshakeEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\handshake\UpdateHandshakeEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\ArchiveRequestDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\ArchiveResponseDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\EncryptionDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\HandshakeResponseDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\LoggedInDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\LoggedOutDecoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\decoders\UpdateOpcodes.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\encoders\ArchiveRequestEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\encoders\ArchiveResponseEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\encoders\EncryptionEncoder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\protocol\src\main\java\net\runelite\protocol\update\encoders\XorEncoder.java">
+</file>
+</checkstyle>

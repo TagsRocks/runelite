@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\RuneLiteAPI.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\account\AccountClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\account\OAuthResponse.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\animation\AnimationClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\animation\AnimationKey.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\animation\AnimationRequest.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\cache\Cache.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\cache\CacheArchive.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\cache\CacheIndex.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\chat\ChatClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\chat\Duels.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\chat\House.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\chat\Task.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\config\ConfigClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\config\ConfigEntry.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\config\Configuration.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\DiscordClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\DiscordEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\DiscordMessage.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\AuthorEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\FieldEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\FooterEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\ImageEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\ProviderEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\ThumbnailEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\discord\embed\VideoEmbed.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\examine\ExamineClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\feed\FeedClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\feed\FeedItem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\feed\FeedItemType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\feed\FeedResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ge\GrandExchangeClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ge\GrandExchangeTrade.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\HiscoreClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\HiscoreEndpoint.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\HiscoreResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\HiscoreResultBuilder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\HiscoreSkill.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\SingleHiscoreSkillResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\hiscore\Skill.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\Item.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\ItemClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\ItemEquipmentStats.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\ItemPrice.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\ItemStats.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\ItemType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\item\SearchResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\loottracker\GameItem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\loottracker\LootRecord.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\loottracker\LootRecordType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\loottracker\LootTrackerClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\osbuddy\OSBGrandExchangeClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\osbuddy\OSBGrandExchangeResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\worlds\World.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\worlds\WorldClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\worlds\WorldResult.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\worlds\WorldType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\RuntimeTypeAdapterFactory.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\WebsocketGsonFactory.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\WebsocketMessage.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\Handshake.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\LoginResponse.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\Join.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\Part.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\PartyChatMessage.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\PartyMemberMessage.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\PartyMessage.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\UserJoin.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\UserPart.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\ws\messages\party\UserSync.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\xp\XpClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\xp\XpData.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\xtea\XteaClient.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\xtea\XteaKey.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\http-api\src\main\java\net\runelite\http\api\xtea\XteaRequest.java">
+</file>
+</checkstyle>

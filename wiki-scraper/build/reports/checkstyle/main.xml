@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\App.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\dump\MediaWiki.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\dump\MediaWikiTemplate.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\dump\wiki\ItemLimitsDumper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\dump\wiki\ItemStatsDumper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\wiki-scraper\src\main\java\net\runelite\data\dump\wiki\NpcStatsDumper.java">
+</file>
+</checkstyle>

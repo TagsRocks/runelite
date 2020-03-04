@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\ClassFile.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\ClassGroup.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\Field.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\Interfaces.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\Method.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\Type.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\Annotations.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\Code.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\Exceptions.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\annotation\Annotation.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\annotation\Element.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Exception.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Exceptions.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Instruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\InstructionType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Instructions.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Label.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\LocalVariable.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\Parameter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\AdditionInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\ArrayLoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\ArrayStoreInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\ComparisonInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\ConversionInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\DivisionInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\DupInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\FieldInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\GetFieldInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\IntInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\InvokeInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\JumpingInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\LVTInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\LVTInstructionType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\MappableInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\PushConstantInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\ReturnInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\SetFieldInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\SubtractionInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instruction\types\TypeInstruction.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\AALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\AAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\AConstNull.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ANewArray.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\AStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\AThrow.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ArrayLength.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ArrayStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\BALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\BAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\BiPush.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\CALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\CAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\CheckCast.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\D2F.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\D2I.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\D2L.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DAdd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DCmpG.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DCmpL.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DDiv.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DLoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DMul.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DNeg.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DRem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\DSub.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup2_X1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup2_X2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup_X1.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Dup_X2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\F2D.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\F2I.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\F2L.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FAdd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FCmpG.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FCmpL.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FDiv.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FLoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FMul.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FNeg.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FRem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\FSub.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\GetField.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\GetStatic.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Goto.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\GotoW.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2B.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2C.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2D.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2F.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2L.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\I2S.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IAdd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IAnd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IDiv.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IInc.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ILoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IMul.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\INeg.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IOr.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IRem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IShL.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IShR.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\ISub.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IUShR.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IXor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\If.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\If0.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfACmpEq.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfACmpNe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfCmpGe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfCmpGt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfCmpLe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfCmpLt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfEq.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfGe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfGt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfICmpEq.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfICmpNe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfLe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfLt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfNe.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfNonNull.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\IfNull.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InstanceOf.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InvokeDynamic.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InvokeInterface.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InvokeSpecial.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InvokeStatic.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\InvokeVirtual.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\L2D.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\L2F.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\L2I.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LAdd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LAnd.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LCmp.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LDC.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LDiv.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LLoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LMul.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LNeg.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LOr.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LRem.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LShL.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LShR.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LSub.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LUShR.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LXor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\LookupSwitch.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\MonitorEnter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\MonitorExit.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\MultiANewArray.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\NOP.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\New.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\NewArray.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Pop.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Pop2.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\PutField.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\PutStatic.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Return.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\SALoad.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\SAStore.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\SiPush.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\Swap.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\TableSwitch.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\attributes\code\instructions\VReturn.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\Execution.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\ExecutionVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\Frame.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\FrameVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\InstructionContext.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\MethodContext.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\MethodContextVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\ParallellMappingExecutor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\Stack.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\StackContext.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\StaticStep.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\Value.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\VariableContext.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\Variables.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\execution\WeakInstructionContext.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\objectwebasm\NonloadingClassWriter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\pool\Class.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\pool\Field.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\pool\Method.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\signature\Signature.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\signature\util\VirtualMethods.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\ClassAnnotationVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\ClassFieldVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\ClassFileVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\CodeVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\FieldAnnotationVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\asm\visitors\MethodAnnotationVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\Deob.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\DeobAnnotations.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\DeobProperties.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\Deobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\Transformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\c2s\IsaacCipherFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\c2s\RWOpcodeFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\clientver\ClientVersion.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\clientver\ClientVersionMain.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\clientver\VersionClassVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\clientver\VersionMethodVisitor.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\CastNull.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\EnumDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\FieldInliner.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\IllegalStateExceptions.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\Lvt.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\Order.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\PacketHandlerOrder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\RenameUnique.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\Renamer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\RuntimeExceptions.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\StaticShouldBeInstance.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\UnreachedCode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\UnusedClass.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\UnusedFields.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\UnusedMethods.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\UnusedParameters.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\AssociatedConstant.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\DMath.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\DupDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\Encryption.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\FieldInfo.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\ModArith.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\MultiplicationDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\MultiplicationExpression.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\MultiplyOneDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\MultiplyZeroDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\arithmetic\Pair.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\cfg\Block.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\cfg\ControlFlowDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\cfg\ControlFlowGraph.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\constparam\ConstantMethodParameter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\constparam\ConstantParameter.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\exprargorder\ExprArgOrder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\exprargorder\Expression.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\lvt\LVTType.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\lvt\MapKey.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\lvt\Mappings.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\AnnotationIntegrityChecker.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\AnnotationMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\ClassGroupMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\ClassMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\ConstructorMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\ExecutionMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\Mapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\Mapping.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\MappingExecutorUtil.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\MethodSignatureMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\ParallelExecutorMapping.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\StaticInitializerIndexer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\mapping\StaticMethodSignatureMapper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\menuaction\Comparison.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\menuaction\MenuActionDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packethandler\PacketLengthFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packethandler\PacketRead.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packethandler\PacketTypeFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packetwrite\OpcodeReplacer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packetwrite\PacketWrite.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\packetwrite\PacketWriteDeobfuscator.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\ClientErrorTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\GetPathTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\MaxMemoryTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\OpcodesTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\ReflectionTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\RuneliteBufferTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\ScriptOpcodesTransformer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\buffer\BufferFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\buffer\BufferMethodInjector.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\buffer\BufferPayloadFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\buffer\PacketFlushFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\buffer\RuneliteBuffer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\deobfuscators\transformers\scriptopcodes\ScriptOpcode.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\s2c\HandlerFinder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\s2c\PacketHandler.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\s2c\PacketHandlers.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\AnnotationAdder.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\AnnotationCopier.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\AnnotationRenamer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\MappingDumper.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\ParameterRenamer.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\UpdateMappings.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\mappingdumper\MappedClass.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\mappingdumper\MappedField.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\mappingdumper\MappedMethod.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\updater\mappingdumper\MappingDump.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\util\IdGen.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\util\JarUtil.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\util\NameMappings.java">
+</file>
+<file name="D:\Downloads\CLIENTS-Only\runelite\deobfuscator\src\main\java\net\runelite\deob\util\PrimitiveUtils.java">
+</file>
+</checkstyle>
