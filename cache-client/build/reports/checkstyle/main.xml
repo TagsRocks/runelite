@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\ArchiveResponseHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\CacheClient.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\CacheClientHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\ClientState.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\DownloadWatcher.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\FileResult.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\HandshakeResponseHandler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\IndexInfo.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-client\src\main\java\net\runelite\cache\client\PendingFileRequest.java">
+</file>
+</checkstyle>

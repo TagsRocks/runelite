@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\AreaManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\Cache.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\ConfigType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\HeightMapDumper.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\IndexType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\InterfaceManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\InventoryManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\ItemManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\MapImageDumper.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\NpcManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\ObjectManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\OverlayManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\SpriteManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\StructManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\TextureManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\UnderlayManager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\AreaDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\ClientScript1Instruction.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\EnumDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\FrameDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\FramemapDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\InterfaceDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\InventoryDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\ItemDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\KitDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\LocationsDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\MapDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\ModelDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\NpcDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\ObjectDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\OverlayDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\ScriptDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\SequenceDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\SpotAnimDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\SpriteDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\StructDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\TextureDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\TrackDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\UnderlayDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\VarbitDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapType0.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapType1.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapType2.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapType3.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\WorldMapTypeBase.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\exporters\InterfaceExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\exporters\ItemExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\exporters\NpcExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\exporters\ObjectExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\exporters\SpriteExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\AreaLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\EnumLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\FrameLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\FramemapLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\InterfaceLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\InventoryLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\ItemLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\KitLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\LocationsLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\MapLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\ModelLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\NpcLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\ObjectLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\OverlayLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\ScriptLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\SequenceLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\SpotAnimLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\SpriteLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\StructLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\TextureLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\TrackLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\UnderlayLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\VarbitLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\WorldMapLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\sound\AudioEnvelopeLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\sound\InstrumentLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\sound\SoundEffectLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\loaders\sound\SoundEffectTrackLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\ItemProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\ModelProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\OverlayProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\SpriteProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\StructProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\TextureProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\providers\UnderlayProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\InterfaceSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\ItemSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\LocationSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\MapSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\NpcSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\ObjectSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\savers\ScriptSaver.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\sound\AudioEnvelopeDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\sound\InstrumentDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\sound\SoundEffectDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\definitions\sound\SoundEffectTrackDefinition.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\Archive.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\ArchiveFiles.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\Container.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\FSFile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\Index.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\Storage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\Store.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\flat\FlatStorage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\CompressionType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\DataFile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\DataFileWriteResult.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\DiskStorage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\IndexEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\fs\jagex\IndexFile.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\index\ArchiveData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\index\FileData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\index\IndexData.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\io\InputStream.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\io\OutputStream.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\ColorPalette.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\Graphics3D.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\ItemSpriteFactory.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\Model.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\RSTextureProvider.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\Rasterizer2D.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\Renderable.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\item\SpritePixels.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\models\CircularAngle.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\models\FaceNormal.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\models\ObjExporter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\models\Vector3f.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\models\VertexNormal.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\region\HeightCalc.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\region\Location.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\region\Position.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\region\Region.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\region\RegionLoader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\Instruction.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\Instructions.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\Opcodes.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\Assembler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\LabelVisitor.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\LexerErrorListener.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\LookupCase.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\LookupSwitch.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\ScriptWriter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\rs2asmBaseListener.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\rs2asmLexer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\rs2asmListener.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\assembler\rs2asmParser.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\script\disassembler\Disassembler.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\BZip2.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\Crc32.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\Djb2.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\Djb2Manager.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\GZip.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\IDClass.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\Namer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\ScriptVarType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\Xtea.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache\src\main\java\net\runelite\cache\util\XteaKeyManager.java">
+</file>
+</checkstyle>

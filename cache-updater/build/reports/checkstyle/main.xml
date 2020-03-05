@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\CacheConfiguration.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\CacheDAO.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\CacheStorage.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\CacheUpdater.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\CacheUploader.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\InstantConverter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\beans\ArchiveEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\beans\CacheEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\beans\FileEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\cache-updater\src\main\java\net\runelite\cache\updater\beans\IndexEntry.java">
+</file>
+</checkstyle>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.4.1">
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\SpringBootWebApplication.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\SpringWebMvcConfigurer.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\AccountService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\AuthFilter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\State.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\UserInfo.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\beans\SessionEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\account\beans\UserEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\CacheController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\CacheDAO.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\CacheService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\beans\ArchiveEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\beans\CacheEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\beans\FileEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\cache\beans\IndexEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\chat\ChatController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\chat\ChatService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\chat\KillCountKey.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\config\ConfigController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\config\ConfigService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\examine\ExamineController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\examine\ExamineEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\examine\ExamineService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\examine\ExamineType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\FeedController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\blog\BlogService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\osrsnews\OSRSNewsService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\twitter\TwitterOAuth2TokenResponse.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\twitter\TwitterService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\twitter\TwitterStatusesResponseItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\feed\twitter\TwitterStatusesResponseItemUser.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\ge\GrandExchangeController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\ge\GrandExchangeService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\ge\TradeAction.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\ge\TradeEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\hiscore\HiscoreController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\hiscore\HiscoreKey.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\hiscore\HiscoreService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\ItemController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\ItemEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\ItemService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\PendingLookup.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\PriceEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\RSItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\RSItemResponse.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\RSPrices.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\item\RSSearch.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\loottracker\LootResult.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\loottracker\LootTrackerController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\loottracker\LootTrackerService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\osbuddy\GrandExchangeEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\osbuddy\OSBGrandExchangeController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\osbuddy\OSBGrandExchangeService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\osbuddy\OsbuddyClient.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\osbuddy\beans\OsbuddySummaryItem.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\sprite\SpriteController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\sprite\SpriteService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\util\HiscoreEndpointEditor.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\util\InstantConverter.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\util\exception\InternalServerErrorException.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\util\exception\NotFoundException.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\util\redis\RedisPool.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\worlds\ServiceWorldType.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\worlds\WorldController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\worlds\WorldsService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xp\XpMapper.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xp\XpTrackerController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xp\XpTrackerService.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xp\beans\PlayerEntity.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xp\beans\XpEntity.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xtea\XteaCache.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xtea\XteaController.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xtea\XteaEntry.java">
+</file>
+<file name="D:\Downloads\OSRS\runelite\http-service\src\main\java\net\runelite\http\service\xtea\XteaService.java">
+</file>
+</checkstyle>
